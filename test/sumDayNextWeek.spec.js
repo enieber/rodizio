@@ -3,7 +3,7 @@ const sumDayWeek = require('../src/sumDayNextWeek');
 
 describe('sum of Days of Next Week', function() {
   it('must returned 13 when the day is equals 6', function() {
-    sumDayWeek(new Date('05-06-2016')).should.eql(new Date('05-13-2016'));
+    sumDayWeek('05-06-2016').should.eql(new Date('05-13-2016'));
   });
 
   it('must returned 19 when the day is equals 12', function() {
