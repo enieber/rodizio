@@ -1,0 +1,29 @@
+{
+  "name": "rodizio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "demo.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "calendar-matrix": "^1.0.0",
+    "simple-day-of-week": "^1.0.2",
+    "week": "^0.1.0",
+    "week-list": "^1.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/enieber/rodizio.git"
+  },
+  "author": "Enieber Cunha <eniebercunha@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/enieber/rodizio/issues"
+  },
+  "homepage": "https://github.com/enieber/rodizio#readme"
+}
